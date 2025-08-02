@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1925.85 670.94">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .5;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="5.85" width="1920" height="670.72"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-2">
+      <image width="1380" height="920" transform="translate(-1.32 -137.41) scale(1.39)" xlink:href="C:\Users\ThinkPad\OneDrive\Máy tính\png\ai-generated-cake-picture_23-2150649258.jpg"/>
+    </g>
+    <rect class="cls-1" y=".22" width="1917.35" height="670.72"/>
+  </g>
+</svg>
