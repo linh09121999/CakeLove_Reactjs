@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useGlobal } from "../context/GlobalContext";
 
 const BackToTop:React.FC = () => {
-    const {iconBackToTop} = useGlobal()
+    const {icon} = useGlobal()
 
     const [isVisible, setIsVisible] = useState<boolean>(false);
     useEffect(() => {
@@ -30,9 +30,9 @@ const BackToTop:React.FC = () => {
     return (
         <>
             {isVisible && (
-                <button className='back-to-top p-3 shadow-lg transition-all'
+                <button className='flex fixed bottom-[24px] right-[30px] size-[56px] bg-pink-700/60  text-white rounded-full p-3 shadow-lg transition-all z-10 justify-center items-center cursor-pointer trasistion-all duration-300 hover:translate-y-[-3px]'
                     onClick={scrollToTop}>
-                    {iconBackToTop}
+                    {icon.iconBackToTop}
                 </button>
             )}
         </>

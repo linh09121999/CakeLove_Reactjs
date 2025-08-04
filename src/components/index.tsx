@@ -1,7 +1,9 @@
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./header";
+import Footer from "./footer";
+import BottomNavigations from './bottomNavigations';
 
 export {
     Footer,
-    Header
+    Header,
+    BottomNavigations
   }
